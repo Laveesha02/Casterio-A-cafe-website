@@ -1,0 +1,345 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.logo img{
+    float: left;
+    width: 8%;
+    border-radius: 50%;
+    border: 3px solid rgb(202, 197, 197);
+    padding: 3px;
+}
+.heading h1{
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(58, 52, 52);
+    font-size :110px;
+  font-weight: 500;
+  border-bottom: rgb(225, 43, 43);
+}
+.n ul{
+    display: flex;
+}
+.search{
+    margin-top: 0;
+    display: flex;
+  align-items: center;
+  background: #f8f8f8;
+  width: 100%;
+  height: 3rem;
+   padding: 10px; 
+  /* padding-top: 0% */
+  border-radius: 10px;
+  
+}
+.search input {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    float: left;
+}
+.qe{
+    display: flex;
+    align-items: center;
+    background: #f8f8f8;
+    width: 150%;
+    height: 3rem;
+     padding: 10px; 
+     border-radius: 10px;
+    margin-left: 980px;
+   
+     
+  
+}
+.qe2{
+    display: flex;
+    align-items: center;
+    background: #f8f8f8;
+    width: 150%;
+    height: 3rem;
+     padding: 10px; 
+     border-radius: 10px;
+}
+.qe a{
+    color: #3b3737;
+    text-decoration: none;
+}
+.qe2 a{
+    color: #3b3737;
+    text-decoration: none;
+}
+.n ul li {
+    padding: 9px;
+    border-radius: 10px;
+    margin-top: 0;
+    float: right;
+    display: flex;
+    border: none;
+     color: #343131;
+    margin-left: 6px;
+    height: 3rem;
+    align-items: center;
+}
+.nav ul {
+	list-style: none;
+	background-color: rgb(58, 52, 52);
+   
+}
+.nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.nav a {
+	display: block;
+	padding: 10px;
+	color: #f3f3f3;
+	text-decoration: none;
+}
+.nav a:hover {
+	background-color: #cf3a3a;
+   
+	color: #fff;
+}
+.img2 img{
+    width: 38.5cm;
+    height: 15cm;
+
+}
+.h h1{
+    background-color: #dd4848;
+    color: #3b3737;
+    height: 1.2cm;
+    font-weight: 700;
+    text-align: center;
+    border: 4px outset rgb(249, 231, 231);
+    padding-top: 10px;
+}
+section{
+    display: grid;
+    width: 300px;
+    height: 350px;
+    box-sizing: border-box;
+    border: 4px solid black;
+    border: 4px outset rgb(249, 231, 231);
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;  
+    margin-left: 60px; 
+}
+section button{
+    width: 200px;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255);
+    background-color:  #f35f4f;
+   align-items: center;
+    border-radius: 2500px;
+}
+section button:hover{
+    background-color:  #f68679;
+}
+.bs{
+    display: flex;
+    padding: 10px;
+}
+.bsimg{
+    width: 90%;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.nl{
+    display: flex;
+    padding: 10px;
+}
+.nlimg{
+    width: 90%;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.ss{
+    display: flex;
+    padding: 10px;
+}
+.ssimg{
+    width: 90%;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+   
+}
+.bev{
+    display: flex;
+    padding: 10px;
+}
+.bevimg{
+    width: 90%;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+   
+}
+.co{
+    display: flex;
+    padding: 10px;
+}
+.coimg{
+    width: 90%;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+   
+}
+.des{
+    display: flex;
+    padding: 10px;
+}
+.desimg{
+    width: 90%;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+   
+}
+.footer{
+    margin-top: 60px;
+    background-color: rgb(58, 52, 52);
+    height: 20%;
+}
+.logo2 img{
+    width: 15%;
+    border-radius: 50%;
+    border: 3px solid rgb(179, 154, 154);
+    padding: 4px;
+    margin-top: 20px;
+}
+.FHH ul{
+    display: flex;
+}
+.FHH h1{
+    color: #f8f8f8;
+    font-size: 60px;
+    margin-right: 80%;
+    
+}
+.FHH h4{
+    color: #f8f8f8;
+    font-size: 20px;
+    margin-top: 15px;
+    padding-top: 0;
+}
+.FHH2 ul{
+    list-style: none;
+    
+}
+.FHH2 ul li{
+    display: inline-block;
+	margin-left: 40px;
+}
+.FHH2 ul li a{
+    display: block;
+	padding: 10px;
+	color:#f8f8f8;
+	text-decoration: none;
+    border-left: 1.2px solid #f8f8f8;
+    
+}
+.sp h2{
+    background-color: #dd4848;
+    color: #3b3737;
+    height: 1.2cm;
+    font-weight: 700;
+    text-align: center;
+    border: 4px outset rgb(249, 231, 231);
+    padding-top: 10px;
+
+}
+.sp p{
+    color: #857f7f;
+    text-align: center;
+    font-size: 20px;
+}
+.con{
+    display: flex;
+    margin: 5px;
+    padding: 45px; 
+    align-items: center;   
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.6);
+    background-color: rgba(255, 255, 255, 0.411);
+}
+.but{
+    width: 200px;
+    cursor: pointer;
+    font-weight: 1200;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255);
+    background-color:  #f35f4f;
+    align-items: center;
+    border-radius: 2500px;
+    text-decoration: none;
+    
+}
+.spec{
+    color: #343131;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.but:hover{
+    background-color:  #f68679;
+}
+.col{
+    align-items: center;
+    background: #f8f8f8;
+    width: 100%;
+    height: 1rem;
+     padding: 10px; 
+    /* padding-top: 0% */
+    border-radius: 10px; 
+}
+.ee{
+    margin: 70px 160px;
+    color: #857f7f;
+    display: flex;
+    padding: 45px; 
+    align-items: center;   
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.6);
+    background-color:  rgb(58, 52, 52);
+    
+}
+.new{
+    display: flex;
+    height: 18cm;
+}
+.ab{
+    background-color: rgb(58, 52, 52);
+    text-align: center; 
+    color:  #f3f3f3 ;
+}
+.img3{
+    margin-top: 200px;
+    margin-right: 120px;
+}
+.ee h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.ee h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center; 
+    justify-content: center; 
+    background-size: cover;     
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-image: url("https://elementor.com/resources/wp-content/uploads/2021/02/michal-parzuchowski-ItaV89TNkks-unsplash-scaled.jpg"); */
+    background-color: rgb(58, 52, 52);
+}
+.form-cont{
+    display: flex;
+    padding: 45px; 
+    align-items: center;   
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.6);
+    background-color: rgba(255, 255, 255, 0.411);
+ }
+ .form-cont>img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+ }
+ .form-cont>input{
+    border: 0;
+    outline: 0;
+    width: 270px;
+    padding: 15px;
+    margin: 5px 0;
+    display: block;
+    font-size: 15px;    
+    border-radius: 10px;
+ }
+ #signup-btn{
+    width: 130px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 1000px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255);
+    background-color: rgb(225, 43, 43);
+ }
+ #signup-btn:hover{
+    background-color: #f68679;
+ }
+ p{
+   color: rgb(50, 51, 52);
+   font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+a{
+   color: rgb(63, 64, 64);
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
